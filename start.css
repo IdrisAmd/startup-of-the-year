@@ -1,0 +1,44 @@
+body,
+html {
+    font-family: 'Times New Roman', sans-serif;
+    width: 100%;
+    height: 100%;
+    background: url(pexels-photo.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body,
+button {
+    color: black;
+    text-align: center;
+}
+h1 {
+    font-size: 3rem;
+    color: wheat;
+}
+hr {
+    border-width: 4px;
+    max-width: 65px;
+    color: wheat;
+    text-align: center;
+}
+.btn,
+.btn xl {
+    padding: 1rem 2rem;
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+.btn-primary {
+    background-color: black;
+    border-color:wheat;
+    border-left-width: 4px;
+}
+.btn-primary:hover {
+    background-color: rgba(245, 151, 142, 0.342);
+    border-width: 4px;
+    color: black;
+    border-color: black;
+}
